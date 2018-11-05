@@ -1,0 +1,85 @@
+body
+{
+    background-color: #32A041;
+    margin:0px;
+    padding: 0px;
+}
+#menuBox
+{
+    margin-top: 16px;
+    background-color: white;
+    height: 627px;
+}
+#logoIfmg
+{
+    align-content: center;
+    width: 200px;
+    height: 250px;
+}
+#rowLogoIfmg
+{
+    margin-top: 25px;
+}
+#rowLogarMenu
+{
+    margin-top: 60px;
+}
+#rowLogarPass
+{
+    margin-top: 15px;
+}
+#rowLogarBotoes
+{
+    margin-top:10px;
+    margin-right: 23px;
+}
+#btnEntrar
+{
+    color:white;
+    background-color:#32A041;
+    border: 0PX;
+    height: 35px;
+    margin-left: -10px;
+}
+#esqueciMinhaSenha
+{
+    margin-top: 7px;
+    margin-left: 14px;
+}
+#esqueciMinhaSenha a:active
+{
+    color:black;
+}
+#esqueciMinhaSenha a:hover
+{
+    color: black;
+    text-decoration: none;
+}
+#esqueciMinhaSenha a:link
+{
+    color: black;
+    text-decoration: none;    
+}
+#esqueciMinhaSenha a:visited
+{
+    color:black;
+}
+#btnEntrar a:active
+{
+    color:white;
+}
+#btnEntrar a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+#btnEntrar a:link
+{
+    color: white;
+    text-decoration: none;    
+}
+#btnEntrar a:visited
+{
+    color:white;
+    text-decoration: none;
+}
