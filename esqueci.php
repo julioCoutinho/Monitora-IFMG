@@ -44,7 +44,7 @@
                                 <div class="row">
                                     <div class="col-md-5"></div>
                                     <div class="col-md-7">
-                                    <button type="submit" id="btnEntrar" style="margin-left:-2px;"><a href="#">Concluído</a></button>
+                                    <button type="submit" id="btnEntrar" style="margin-left:-2px;"><a href="#">Confirmar</a></button>
                                     </div>
                                 </div>
                             </form>
