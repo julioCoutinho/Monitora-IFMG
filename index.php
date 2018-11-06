@@ -83,7 +83,11 @@
                         <div class="row">
                             <div class="col-md-12">Nome:</div>
                         </div>
-                        <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:479px;height:25px;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:479px;height:25px;">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row" style="background:#F2F2F2;padding-bottom:20px;">
@@ -128,6 +132,94 @@
                     <div class="col-md-4"></div>
                     <div class="col-md-4" style="font-weigth:bold;background-color:#AEAEAE;border:solid 1px #797979;border-radius:10px 10px 0 0;padding:2px; margin-top:12px">Dados da Tutoria/Monitoria</div>
                     <div class="col-md-4"></div>
+                </div>
+                <div class="row" style="padding-top:10px;background:#F2F2F2;">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Categoria(Tutoria/Monitoria):
+                            </div>
+                        </div>
+                        <div class="row" >
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222; width:243px; height:25px;"> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12">
+                                E-mail:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:479px;height:25px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-top:10px;background:#F2F2F2;">
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Curso:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:282px;height:25px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Turma:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:141px;height:25px;">
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="margin-left:-40px;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Período/Ano letivo:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:265px;height:25px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-top:10px;padding-bottom:20px;background:#F2F2F2;">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Professor Orientador:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:419px;height:25px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Disciplina em que atua:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:290px;height:25px;">
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Fim Dados da tutorio/monitoria -->
             </div>
