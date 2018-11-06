@@ -10,8 +10,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
   </head>
-  <body>
+  <body>    
     <!-- Menu Nav bar -->
+    
     <div class="row" id="rowMenu">
         <div class="col-md-5"></div>
         <div class="col-md-7" id="menuNav">
@@ -46,92 +47,20 @@
             </ul>                
         </div>
     </div>
-    <div class="row" id="conteudoPrincipalAluno">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <form>
+    <!-- Conteudo do Aluno -->   
+    <div class="container" style="margin-top:50px;">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
                 <div class="row">
-                    <div class="col-md-3" ><conteudoInformacoesTitulo>Informações do Aluno</conteudoInformacoesTitulo></div>
-                    <div class="col-md-7"></div>
-                    <div class="col-md-2"></div>
+                    <div class="col-md-4" class="BoxInfoAluno">Informações do aluno</div>
+                    <div class="col-md-8"></div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12" id="conteudoPrincipalIdentificacao">
-                        <div class="row" id="colIdenficacao">
-                            <div class="col-md-5"></div>
-                            <div class="col-md-2" id="identificaoFundo">Identificacao</div>
-                            <div class="col-md-5"></div>
-                        </div>
-                        <div class="row" style="margin-left:20px;">
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-md-12" >
-                                        Registro Acadêmico:
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <input type="text" disabled class="inputInforma" style="width: 243px;height: 25px;">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        Nome do aluno:
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <input type="text" disable style="width: 489px;height: 25px;">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row" style="margin-left:20px;">
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-md-12" >
-                                        Data de nascimento:
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <input type="text" disabled class="inputInforma" style="width: 243px;height: 25px;">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        Naturalidade:
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <input type="text" disable style="width: 270px;height: 25px;">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-md-12" style="margin-left:-10px;">
-                                        Estado:
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <input type="text" disable style="width: 209px;height: 25px; margin-left:-10px;margin-bottom:30px;">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
+            </div>
+            <div class="col-md-3"></div>
         </div>
-        <div class="col-md-2"></div>
     </div>
+    <!--  Fim do conteudo do aluno -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
