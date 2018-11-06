@@ -12,41 +12,43 @@
   </head>
   <body>    
     <!-- Menu Nav bar -->
-    
-    <div class="row" id="rowMenu">
-        <div class="col-md-5"></div>
-        <div class="col-md-7" id="menuNav">
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs|pills" id="navId">
-                <li class="nav-item">
-                    <a href="#tab1Id" class="nav-link active">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#tab5Id" class="nav-link">Horários</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#tab5Id" class="nav-link">Turmas</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#tab5Id" class="nav-link">Plano de aula</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Relatórios</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Recebidos</a>
-                        <a class="dropdown-item" href="#">Enviados</a>
-                        <a class="dropdown-item" href="#">Em andamento</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a href="#tab5Id" class="nav-link">Alterar Senha</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#tab5Id" class="nav-link">Sair</a>
-                </li>
-            </ul>                
+    <div class="container-fluid">
+        <div class="row" id="rowMenu">
+            <div class="col-md-5"></div>
+            <div class="col-md-7" id="menuNav">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs|pills" id="navId">
+                    <li class="nav-item">
+                        <a href="#tab1Id" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tab5Id" class="nav-link">Horários</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tab5Id" class="nav-link">Turmas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tab5Id" class="nav-link">Plano de aula</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Relatórios</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Recebidos</a>
+                            <a class="dropdown-item" href="#">Enviados</a>
+                            <a class="dropdown-item" href="#">Em andamento</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tab5Id" class="nav-link">Alterar Senha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tab5Id" class="nav-link">Sair</a>
+                    </li>
+                </ul>                
+            </div>
         </div>
     </div>
+    <!-- Fim Menu Navbar -->
     <!-- Conteudo do Aluno -->   
     <div class="container" style="margin-top:50px;">
         <div class="row">
@@ -128,7 +130,7 @@
                 </div>
                 <!-- Fim Marcador de Identificação-->
                 <!-- Dados da tutoria/monitoria -->
-                <div class="row" style="background:#F2F2F2;border-bottom:solid 1px #797979;">
+                <div class="row" style="background:#F2F2F2;border-bottom:solid 1px #797979;" align="center">
                     <div class="col-md-4"></div>
                     <div class="col-md-4" style="font-weigth:bold;background-color:#AEAEAE;border:solid 1px #797979;border-radius:10px 10px 0 0;padding:2px; margin-top:12px">Dados da Tutoria/Monitoria</div>
                     <div class="col-md-4"></div>
@@ -222,11 +224,133 @@
                     </div>
                 </div>
                 <!-- Fim Dados da tutorio/monitoria -->
+                <!-- Endereço do aluno -->
+                <div class="row" style="background:#F2F2F2;border-bottom:solid 1px #797979;" align="center">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4" style="font-weigth:bold;background-color:#AEAEAE;border:solid 1px #797979;border-radius:10px 10px 0 0;padding:2px; margin-top:12px">Endereço</div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="row" style="padding-top:10px;background:#F2F2F2;">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                CEP:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:243px;height:25px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Logradouro:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:479px;height:25px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-top:10px;background:#F2F2F2;">
+                    <div class="col-md-2">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Número:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:100px;height:25px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Bairro:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:193px;height:25px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="margin-lefT:-40px;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Complemento:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:393px;height:25px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-top:10px;background:#F2F2F2; border-bottom:solid 1px #797979; padding-bottom:20px; margin-bottom:30px;">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Telefone Celular 1:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:230px;height:25px;">   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Telefone Celular 2:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:230px;height:25px;">   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Telefone Residencial:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:226px;height:25px;">   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Endereço do aluno -->
             </div>
             <div class="col-md-2"></div>
         </div>
     </div>
     <!--  Fim do conteudo do aluno -->
+    <!-- Rodapé -->
+    <div class="container-fluid" style="background-color:#32A041;">
+        <div class="row" id="ropadeContainer">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">asadsa</div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <!-- Fim Rodapé-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
