@@ -50,14 +50,88 @@
     <!-- Conteudo do Aluno -->   
     <div class="container" style="margin-top:50px;">
         <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-4" class="BoxInfoAluno">Informações do aluno</div>
-                    <div class="col-md-8"></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <!-- Marcador de Informações -->
+
+                <div class="row" style="border-bottom:solid 1px #797979;">
+                    <div class="col-md-3" align="center" class="boxInfoAluno" style=" background-color:#CCCCCC;border: solid 1px #222222;border-radius: 10px 10px 0 0 ; padding= 10px;">Informações</div>
+                    <div class="col-md-9"></div>
                 </div>
+
+                <!-- Fim Marcador de Informações -->
+                <!-- Marcador de Identificação -->
+                <div class="row" align="center"  style="background:#F2F2F2;border-bottom:solid 1px #797979;">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4" style="font-weigth:bold;background-color:#AEAEAE;border:solid 1px #797979;border-radius:10px 10px 0 0;padding:2px; margin-top:12px">
+                        Identificação
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="row" style="background:#F2F2F2;padding-bottom:10px;">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">Registro Acadêmico:</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222; width:243px; height:25px;" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12">Nome:</div>
+                        </div>
+                        <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:479px;height:25px;">
+                    </div>
+                </div>
+                <div class="row" style="background:#F2F2F2;padding-bottom:20px;">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Data de nascimento:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12"><input type="text" disabled style="background-color:white;border:solid 1px #222222; width:243px; height:25px;" ></div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Naturalidade:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:270px;height:25px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="margin-left:-40px;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                Estado:
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" disabled style="background-color:white;border:solid 1px #222222;width:200px;height:25px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Marcador de Identificação-->
+                <!-- Dados da tutoria/monitoria -->
+                <div class="row" style="background:#F2F2F2;border-bottom:solid 1px #797979;">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4" style="font-weigth:bold;background-color:#AEAEAE;border:solid 1px #797979;border-radius:10px 10px 0 0;padding:2px; margin-top:12px">Dados da Tutoria/Monitoria</div>
+                    <div class="col-md-4"></div>
+                </div>
+                <!-- Fim Dados da tutorio/monitoria -->
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-2"></div>
         </div>
     </div>
     <!--  Fim do conteudo do aluno -->
