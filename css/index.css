@@ -1,7 +1,7 @@
 /* Menu navbar */
 #rowMenu
 {
-    background-color: #32A041; 
+    background-color: #00420C; 
     height: 60px;
 }
 #menuNav
@@ -10,22 +10,34 @@
 }
 #menuNav a:link
 {
-    color:#222222;
+    color:white;
     text-decoration: none;
 }
 #menuNav a:visited
 {
-    color: #222200;
+    color: white;
     text-decoration:none;
 }
 #menuNav a:hover
 {
-    color:#222222;
+    color: #C6F2CD;
     font-weight: 500;
     text-decoration:none;
 }
 #menuNav a:active
 {
-    color:#222222;
+    color: white;
     text-decoration:none;
+}
+
+a:link,a:visited,a:active
+{
+    color:white;
+    text-decoration: none;
+}
+
+.linkRodape a:hover
+{
+    color:#C6F2CD;
+    text-decoration: none;
 }
