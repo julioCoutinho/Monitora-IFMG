@@ -1,2 +1,2 @@
 # Monitora-IFMG
-Repositorio Com finalidade de desenvolver um sistema para o setor de monitorias do IFMG 
+Repositorio com finalidade de desenvolver um sistema para o setor de monitorias do IFMG 
