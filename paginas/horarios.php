@@ -19,24 +19,16 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs|pills" id="navId">
                     <li class="nav-item">
-                        <a href="#tab1Id" class="nav-link active">Inicio</a>
+                        <a href="aluno.php" class="nav-link active">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#tab5Id" class="nav-link">Horários</a>
+                        <a href="horarios.php" class="nav-link">Horários</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#tab5Id" class="nav-link">Turmas</a>
+                        <a href="#tab5Id" class="nav-link">Presença</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#tab5Id" class="nav-link">Plano de aula</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Relatórios</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" style="color:black;" href="#">Recebidos</a>
-                            <a class="dropdown-item" style="color:black;" href="#">Enviados</a>
-                            <a class="dropdown-item" style="color:black;" href="#">Em andamento</a>
-                        </div>
+                        <a class="nav-link" href="#" role="button">Relatórios</a>
                     </li>
                     <li class="nav-item">
                         <a href="#tab5Id" class="nav-link">Alterar Senha</a>
@@ -68,85 +60,88 @@
                 </div>
                 <div class="row">
                     <div class="col-md-2 colConteudoH" style="border-right:0px;border-bottom:0px;">
-                        00:00 - 00:00
+                        <textarea class="txtLocal" placeholder="00:00 - 00:00"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;border-bottom:0px;">
-                         
-                        <textarea id="txtLocal" width="100%" height=100% placeholder="Local:">
-                            
-                        </textarea>
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal"placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-2 colConteudoH" style="border-right:0px;border-bottom:0px;">
-                        00:00 - 00:00
+                        <textarea class="txtLocal" placeholder="00:00 - 00:00"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal"placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal"placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal"placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal"placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-2 colConteudoH" style="border-right:0px;border-bottom:0px;">
-                        00:00 - 00:00
+                        <textarea class="txtLocal" placeholder="00:00 - 00:00"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-bottom:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-2 colConteudoH" style="border-right:0px;">
-                        00:00 - 00:00
+                        <textarea class="txtLocal" placeholder="00:00 - 00:00"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo" style="border-right:0px;">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
                     </div>
                     <div class="col-md-2 colConteudo">
-                        local:
+                        <textarea class="txtLocal" placeholder="Local:"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5"></div>
+                    <div class="col-md-6">
+                        <input type="submit" class="btn btn-warning" id="btnEnviar" value="Alterar Horário">
                     </div>
                 </div>
             </div>
@@ -256,6 +251,6 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>

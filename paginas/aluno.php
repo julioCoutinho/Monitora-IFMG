@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../css/index.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
   </head>
   <body>    
     <!-- Menu Nav bar -->
@@ -19,24 +19,16 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs|pills" id="navId">
                     <li class="nav-item">
-                        <a href="#tab1Id" class="nav-link active">Inicio</a>
+                        <a href="aluno.php" class="nav-link active">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#tab5Id" class="nav-link">Horários</a>
+                        <a href="horarios.php" class="nav-link">Horários</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#tab5Id" class="nav-link">Turmas</a>
+                        <a href="#tab5Id" class="nav-link">Presença</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#tab5Id" class="nav-link">Plano de aula</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Relatórios</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" style="color:black;" href="#">Recebidos</a>
-                            <a class="dropdown-item" style="color:black;" href="#">Enviados</a>
-                            <a class="dropdown-item" style="color:black;" href="#">Em andamento</a>
-                        </div>
+                        <a class="nav-link" href="#" role="button">Relatórios</a>
                     </li>
                     <li class="nav-item">
                         <a href="#tab5Id" class="nav-link">Alterar Senha</a>
@@ -440,6 +432,6 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
