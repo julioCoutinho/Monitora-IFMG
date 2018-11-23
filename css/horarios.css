@@ -1,0 +1,73 @@
+/* Menu navbar */
+#rowMenu
+{
+    background-color: #00420C; 
+    height: 60px;
+}
+#menuNav
+{
+    margin-top: 10px;
+}
+#menuNav a:link
+{
+    color:white;
+    text-decoration: none;
+}
+#menuNav a:visited
+{
+    color: white;
+    text-decoration:none;
+}
+#menuNav a:hover
+{
+    color: #C6F2CD;
+    font-weight: 500;
+    text-decoration:none;
+}
+#menuNav a:active
+{
+    color: white;
+    text-decoration:none;
+}
+
+a:link,a:visited,a:active
+{
+    color:white;
+    text-decoration: none;
+}
+
+.linkRodape a:hover
+{
+    color:#C6F2CD;
+    text-decoration: none;
+}
+.colHorario
+{
+    border: #222222 solid 0.8px;
+    text-align: center;
+    padding: 10px;
+}
+.tableHorario
+{
+    margin-bottom: 60px;
+}
+.colConteudoH
+{
+    border: #222222 solid 0.8px;
+    text-align: center;
+    padding: 10px;
+    padding-top:36px;
+}
+.colConteudo
+{
+    padding: 10px;
+    border: #222222 solid 0.8px;
+    text-align: left;
+    vertical-align: center;
+    height: 100px;
+}
+#txtLocal
+{
+    width:100%;
+    height: 100%;
+}
