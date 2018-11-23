@@ -23,8 +23,7 @@ CREATE TABLE tb_endereco(
     numero varchar(10),
     cep char(8),
     bairro varchar(100),
-    complemento varchar(200),
-    
+    complemento varchar(200)    
 );
 
 CREATE TABLE tb_aluno(
